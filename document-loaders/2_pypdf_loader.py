@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader('document-loaders/2_dl-curriculum.pdf')
+loader = PyPDFLoader('document-loaders/2_aiml-curriculum.pdf')
 
 docs = loader.load()
 
